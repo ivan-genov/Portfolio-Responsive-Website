@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Genov</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://www.pngkit.com/png/full/11-114878_king-crown-clipart-no-background-free-download-king.png">
+</head>
+<body>
+    
+
+
+    <!-- navigation bar -->
+    <!-- sandwich -->
+    <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <div style="position:static; width: 100vw; height: 100vh; display: none;" id="sanddd">
+      
+      <script src="MENU.js"></script>
+      <div id="big_sand">
+        <h1 class="send_menu_h1"><a href="#main" class="sand_menu_btn" onclick="enableScroll()">looks</a></h1>
+        <h1 class="send_menu_h1"><a href="#people" class="sand_menu_btn" onclick="enableScroll()">impact</a></h1>
+        <h1 class="send_menu_h1"><a href="#questions" class="sand_menu_btn" onclick="enableScroll()">questions</a></h1>
+      </div>
+      <div id="small_sand">
+        <h1 class="send_menu_h1"><a href="#people" class="sand_menu_btn" onclick="enableScroll()">partners</a></h1>
+        <h1 class="send_menu_h1"><a href="#projects" class="sand_menu_btn" onclick="enableScroll()">projects</a></h1>
+        <h1 class="send_menu_h1"><a href="#questions" class="sand_menu_btn" onclick="enableScroll()">questions</a></h1>
+      </div>
+      
+      <script src="SCROLL.js"></script>
+      
+    </div>
+
+    <!-- normal -->
+    <nav id="nav">
+        <li><a href="#main">looks</a></li>
+        <li><a href="#people">impact</a></li>
+        <li><a href="#questions">questions</a></li>
+        <div class="email_wrap">
+          <li id="copy_text" style="margin-right: 1rem;">ivan.genov@design.web</li>       
+          <p id="myText" style="display: none;">ivan.genov@design.web</p>
+          <button id="copy" onclick="copyContent()">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1621/1621635.png"
+              style="height: 1rem; position: relative; width: 1rem;"
+              class="mouse_point"
+            />
+          </button>
+
+          <img
+            id="copy_yes"
+            src="https://cdn-icons-png.flaticon.com/512/25/25404.png"
+            style="height: 1rem; position: relative; width: 1rem; margin-right: 0.9rem;"
+            class="mouse_point"
+          />
+        </div>
+        <script src="COPY_TEXT.js"></script>
+    </nav>
+    
+    <!-- two items -->
+    <div class="two_items">
+        <img src="lol2.jpg" class="item22">
+
+        <h1 class="item1">Hi, I am a <a class="bold">profesional web desiner</a> and I help small to big
+            buisinesses to grow. If you want a <a class="bold">modern apealing online look</a>, I
+            can make your dreams come thrue.</h1>
+
+        <img src="lol.jpg" class="item21">
+    </div>
+
+    <!-- hint to turn your phone hor best experiense -->
+    <div class="turn">
+      <div style="width: 100vw; display: flex; justify-content: center; align-items: center;">
+        <img class="turn_img" src="https://static.thenounproject.com/png/3293059-200.png">
+      </div>
+      <div style="width: 100vw;">
+        <h1 class="turn_hint">HINT:</h1>
+        <h1 class="turn_text">For best experiense turn your phone sideways.</h1>
+      </div>
+    </div>
+
+    <!-- horisontal items -->
+    <div class="hor_list">
+        <img class="hor_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"/>
+        <img class="hor_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"/>
+        <img class="hor_img" src="https://usefulangle.com/img/thumb/javascript.png" />
+        <img class="hor_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"/>
+        <img class="hor_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc2Y2gmQB5zuaBd1AfN_AyEgoTgxPF65i7GwlvrbnnP_RUlubieG19WFnonCtS4ZfAox4&usqp=CAU" />
+        <img class="hor_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEjZfn_CZ8ph3FaedJyIif2T0nzJ3dxG7b24uOt-ojsGiMKF6DF_itLRZUSuZPKF7DR8&usqp=CAU"/>
+        <img class="hor_img" src="https://cdn-au.onetrust.com/logos/3dbea99f-abc0-4dbd-bcd7-8f6dfcaea28d/08d31c24-1bed-4774-903b-b1725205a842/bb79b0fe-48e3-427c-bbac-47fc621af04c/3IX0JssK_400x400.jpeg"/>
+    </div>
+
+    <!-- five things -->
+    <div id="main">
+        <div class="side">
+          <div class="mess">
+            <h1 class="title">Working</h1>
+            <h4 class="five">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ab illo quasi.</h4>
+          </div>
+          <div class="mess">
+            <h1 class="title">Reliable</h1>
+            <h4 class="five">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ab illo quasi.</h4>
+          </div>
+        </div>
+        <div id="center">
+          
+          <div class="mess mess_center" >
+            <img src="123.jpg" id="main_img" />
+            <h1 class="title" style="width: 100%;  margin: auto;">Modern</h1>
+            <h4 class="five center_text" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ab illo quasi.</h4>
+          </div>
+        </div>
+        <div class="side">
+          <div class="mess">
+            <h1 class="title">Responsive</h1>
+            <h4 class="five">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ab illo quasi.</h4>
+          </div>
+          <div class="mess">
+            <h1 class="title">Different</h1>
+            <h4 class="five">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ab illo quasi.</h4>
+          </div>
+        </div>
+    </div>
+
+    <!-- people's oppinions -->
+    <h1 class="people_big_header" id="people"><i>People we helped to</i></h1>
+
+    <div class="people_small_wrap">
+      <div class="people">
+        <div class="people_div">
+          <img src="happy.jpg" class="people_img" />
+          <h1 class="people_header">
+            Any
+          </h1>
+        </div>
+        <h1 class="people_text"> Nesciunt consequuntur minus in architecto adipisci voluptatum animi cum hic recusandae.</h1>
+      </div>
+
+      <div class="people">
+        <div class="people_div">
+          <img src="happy2.jpg" class="people_img" />
+          <h1 class="people_header">
+            Betty
+          </h1>
+        </div>
+        <h1 class="people_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum culpa a obcaecati tempore.</h1>
+      </div>
+
+      <div class="people">
+        <div class="people_div">
+          <img src="happy3.jpg" class="people_img" />
+          <h1 class="people_header">
+            Kille
+          </h1>
+        </div>
+        <h1 class="people_text">Cum culpa a obcaecati tempore. Blanditiis laudantium eum nisi facilis ducimus dolores atque. </h1>
+      </div>
+    </div>
+
+
+    <!-- projects -->
+    <h1 class="people_big_header" id="projects"><i>Projects we build together</i></h1>
+    <div class="projects">
+      <div class="project">
+        <img src="CH1.png" class="project_img">
+        <div class="project_text">
+          <h1 class="project_headline">ANDY WARHOL</h1>
+          <h1 class="project_info">Enim ut saepe obcaecati unde nesciunt. Error tempora sunt, earum provident quis sit esse quibusdam et, reiciendis pariatur veniam officiis aliquid repellat.</h1>
+          <button class="learn_more mouse_point" onclick="window.open('https://waaarhol.com/', '_blank');">See It</button>
+        </div>
+      </div>
+      
+      <div class="project">
+        <img src="CH2.png" class="up project_img">
+        <div class="project_text">
+          <h1 class="project_headline">1917</h1>
+          <h1 class="project_info">Enim ut saepe obcaecati unde nesciunt. Error tempora sunt, earum provident quis sit esse quibusdam et, reiciendis pariatur veniam officiis aliquid repellat.</h1>
+          <button class="learn_more mouse_point" onclick="window.open('https://intothetrenches.1917.movie/', '_blank');">Explore</button>    
+        </div>
+        <img src="CH2.png" class="down project_img">
+      </div>
+
+      <div class="project">
+        <img src="CH3.png" class="project_img">
+        <div class="project_text">
+          <h1 class="project_headline">OVERFLOW</h1>
+          <h1 class="project_info">Enim ut saepe obcaecati unde nesciunt. Error tempora sunt, earum provident quis sit esse quibusdam et, reiciendis pariatur veniam officiis aliquid repellat.</h1>
+          <button class="learn_more mouse_point" onclick="window.open('https://overflow.io/', '_blank');">Inspect</button>    
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-container" id="questions">
+      <div class="faq-one">
+        <!-- faq question -->
+        <h1 class="faq-page">Why should you choose me?</h1>
+        <!-- faq answer -->
+        <div class="faq-body">
+          <p class="faq-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
+            saepe sequi, illum facere necessitatibus cum aliquam id illo omnis
+            maxime, totam soluta voluptate amet ut sit ipsum aperiam.
+            Perspiciatis, porro!
+          </p>
+        </div>
+      </div>
+      <hr class="hr-line" />
+      <div class="faq-two">
+        
+        <!-- faq question -->
+        <h1 class="faq-page">What is the pricing?</h1>
+        <!-- faq answer -->
+        <div class="faq-body">
+          <p class="faq-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
+            saepe sequi, illum facere necessitatibus cum aliquam id illo omnis
+            maxime, totam soluta voluptate amet ut sit ipsum aperiam.
+            Perspiciatis, porro!
+          </p>
+        </div>
+      </div>
+      <hr class="hr-line" />
+      <div class="faq-three">
+        <!-- faq question -->
+        <h1 class="faq-page">How fast can you make the website?</h1>
+        <!-- faq answer -->
+        <div class="faq-body">
+          <p class="faq-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
+            saepe sequi, illum facere necessitatibus cum aliquam id illo omnis
+            maxime, totam soluta voluptate amet ut sit ipsum aperiam.
+            Perspiciatis, porro!
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="FAQ.js"></script>
+
+    <!-- footer -->
+    <div class="wave wave_layer"></div>
+    <div class="footer_wrap">
+      <div class="footer_img_wrap">
+        <h1 class="footer_text">Where you can find me?</h1>
+        <div class="footer_small_img_wrap">
+          <img class="footer_img mouse_point" src="https://logodix.com/logo/395110.png">
+          <img class="footer_img mouse_point" src="sm2.png">
+          <img class="footer_img mouse_point" src="sm1.png">
+        </div>
+      </div>
+      
+      
+      <a onclick="up()" style="margin-left: auto; margin-right: 3rem;" class="footer_arrow mouse_point">⇡</a>
+      <script src="UP.js"></script>
+    </div>
+</body>
+</html>
